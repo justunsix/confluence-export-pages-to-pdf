@@ -39,6 +39,12 @@ node index.js
 - [Python API for Confluence](https://github.com/atlassian-api/atlassian-python-api/) and [documentation](https://atlassian-python-api.readthedocs.io/index.html)
 - [batch-export-wiki-pdf](https://github.com/qquunn/batch-export-wiki-pdf/) - recursively save PDFs from a parent page and its children
 
+### Web Testing Approach
+
+- [How to Build a Web Scraper - Python, Selenium](https://towardsdatascience.com/how-to-build-a-web-scraper-or-bot-in-python-using-selenium-2815f20023f7)
+- [Modern Web Automation With Python and Selenium](https://realpython.com/modern-web-automation-with-python-and-selenium/)
+- [Web Browser Automation with Selenium and Java](https://stackabuse.com/web-browser-automation-with-selenium-and-java/)
+
 ## Appendix: Original project setup
 
 1. Record use case in Chrome recorder
