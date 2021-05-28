@@ -1,6 +1,6 @@
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/justintungonline/confluence-export-pages-to-pdf)
-
 # Export Confluence page(s) to PDF
+
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/justintungonline/confluence-export-pages-to-pdf)
 
 ## Why use?
 
@@ -22,6 +22,7 @@ Install Node 10.18.1+ or later
 npm install
 cp config/default.yaml config/local.yaml
 ```
+
 Edit local.yaml with your Confluence username, password, and URL for the export setting in your space.
 
 Run
@@ -35,12 +36,12 @@ node index.js
 - [confluence-scraping](https://github.com/TheoWolf/confluence-scraping)
 - [Confluence manual PDF export](https://confluence.atlassian.com/conf59/export-content-to-word-pdf-html-and-xml-792498686.html)
 - [Confluence Command Line Interface (CLI)](https://bobswift.atlassian.net/wiki/spaces/CSOAP/overview?homepageId=10584073) and [Examples with PDF export](https://bobswift.atlassian.net/wiki/spaces/CSOAP/pages/10584066/Examples)
-- [Python API for Confluence](https://github.com/atlassian-api/atlassian-python-api/)
-
+- [Python API for Confluence](https://github.com/atlassian-api/atlassian-python-api/) and [documentation](https://atlassian-python-api.readthedocs.io/index.html)
+- [batch-export-wiki-pdf](https://github.com/qquunn/batch-export-wiki-pdf/) - recursively save PDFs from a parent page and its children
 
 ## Appendix: Original project setup
 
 1. Record use case in Chrome recorder
-2. Install Puppeteer which will include a recent version of Chromium `npm i puppeteer` 
+2. Install Puppeteer which will include a recent version of Chromium `npm i puppeteer`
 3. Install config to manage configuration files `npm install config`
 4. Install js-yaml to parse yaml configuration `npm i js-yaml`
