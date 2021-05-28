@@ -30,11 +30,12 @@ Run
 node index.js
 ```
 
-## References Used for Building this Repository
+## References Used for Building this Repository and Researching Options
 
 - [confluence-scraping](https://github.com/TheoWolf/confluence-scraping)
 - [Confluence manual PDF export](https://confluence.atlassian.com/conf59/export-content-to-word-pdf-html-and-xml-792498686.html)
 - [Confluence Command Line Interface (CLI)](https://bobswift.atlassian.net/wiki/spaces/CSOAP/overview?homepageId=10584073) and [Examples with PDF export](https://bobswift.atlassian.net/wiki/spaces/CSOAP/pages/10584066/Examples)
+- [Python API for Confluence](https://github.com/atlassian-api/atlassian-python-api/)
 
 
 ## Appendix: Original project setup
