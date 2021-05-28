@@ -2,19 +2,21 @@
 
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/justintungonline/confluence-export-pages-to-pdf)
 
-## Node.JS Puppeteer Option
+## Why use?
 
-### Why use?
-
-#### Advantages
+### Advantages
 
 - Uses an automated web based login to Confluence on a headless browser to export a PDF using [Confluence's own PDF export](https://confluence.atlassian.com/conf59/export-content-to-word-pdf-html-and-xml-792498686.html).
 - Does not require Confluence API to be turned on to export files.
 - Script can be changed to do any manual steps you can do in a browser (e.g. export to other formats, make changes).
 
-#### Disadvantages
+### Disadvantages
 
-- Script is an automated specific case and is not friendly to configuration or accepting parameters. For configurable should use the Confluence API or CLI.
+- Script is an automated specific case and is not ideal to configurations or accepting parameters. For configurations, use the Confluence API or CLI.
+
+## Web Automation Option
+
+## Node.JS Puppeteer Option
 
 ### Set up
 
@@ -27,7 +29,7 @@ cp config/default.yaml config/local.yaml
 
 Edit local.yaml with your Confluence username, password, and URL for the export setting in your space.
 
-Run
+### Run
 
 ```sh
 node index.js
