@@ -19,10 +19,7 @@
 Install Node 10.18.1+ or later
 
 ```sh
-### Install Puppeteer which will include a recent version of Chromium.
-npm i puppeteer
-
-yarn init
+npm install
 cp config/default.yaml config/local.yaml
 ```
 Edit local.yaml with your Confluence username, password, and URL for the export setting in your space.
@@ -36,5 +33,6 @@ node index.js
 ## Appendix: Original project setup
 
 1. Record use case in Chrome recorder
-2. Install config to manage configuration files `npm install config`
-3. Install js-yaml to parse yaml configuration `npm i js-yaml`
+2. Install Puppeteer which will include a recent version of Chromium `npm i puppeteer` 
+3. Install config to manage configuration files `npm install config`
+4. Install js-yaml to parse yaml configuration `npm i js-yaml`
