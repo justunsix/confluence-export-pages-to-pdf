@@ -30,6 +30,13 @@ Run
 node index.js
 ```
 
+## References Use for Building this Repository
+
+- [confluence-scraping](https://github.com/TheoWolf/confluence-scraping)
+- [Confluence manual PDF export)(https://confluence.atlassian.com/conf59/export-content-to-word-pdf-html-and-xml-792498686.html)
+- 
+
+
 ## Appendix: Original project setup
 
 1. Record use case in Chrome recorder
