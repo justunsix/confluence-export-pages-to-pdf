@@ -2,19 +2,21 @@
 
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/justintungonline/confluence-export-pages-to-pdf)
 
-## Why use?
+## Node.JS Puppeteer Option
 
-### Advantages
+### Why use?
+
+#### Advantages
 
 - Uses an automated web based login to Confluence on a headless browser to export a PDF using [Confluence's own PDF export](https://confluence.atlassian.com/conf59/export-content-to-word-pdf-html-and-xml-792498686.html).
 - Does not require Confluence API to be turned on to export files.
 - Script can be changed to do any manual steps you can do in a browser (e.g. export to other formats, make changes).
 
-### Disadvantages
+#### Disadvantages
 
 - Script is an automated specific case and is not friendly to configuration or accepting parameters. For configurable should use the Confluence API or CLI.
 
-## Set up
+### Set up
 
 Install Node 10.18.1+ or later
 
@@ -31,6 +33,13 @@ Run
 node index.js
 ```
 
+### Appendix: Original project setup
+
+1. Record use case in Chrome recorder
+2. Install Puppeteer which will include a recent version of Chromium `npm i puppeteer`
+3. Install config to manage configuration files `npm install config`
+4. Install js-yaml to parse yaml configuration `npm i js-yaml`
+
 ## References Used for Building this Repository and Researching Options
 
 - [confluence-scraping](https://github.com/TheoWolf/confluence-scraping)
@@ -44,10 +53,3 @@ node index.js
 - [How to Build a Web Scraper - Python, Selenium](https://towardsdatascience.com/how-to-build-a-web-scraper-or-bot-in-python-using-selenium-2815f20023f7)
 - [Modern Web Automation With Python and Selenium](https://realpython.com/modern-web-automation-with-python-and-selenium/)
 - [Web Browser Automation with Selenium and Java](https://stackabuse.com/web-browser-automation-with-selenium-and-java/)
-
-## Appendix: Original project setup
-
-1. Record use case in Chrome recorder
-2. Install Puppeteer which will include a recent version of Chromium `npm i puppeteer`
-3. Install config to manage configuration files `npm install config`
-4. Install js-yaml to parse yaml configuration `npm i js-yaml`
