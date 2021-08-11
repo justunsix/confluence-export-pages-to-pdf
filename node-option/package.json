@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "Export PDF from Confluence through web script",
     "main": "index.js",
-    "repository": "https://github.com/justintungonline/confluence-export-pages-to-pdf",
+    "repository": "https://github.com/justunsix/confluence-export-pages-to-pdf",
     "author": "Justin Tung",
     "license": "MIT",
     "private": false,

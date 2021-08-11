@@ -1,6 +1,6 @@
 # Export Confluence page(s) to PDF
 
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/justintungonline/confluence-export-pages-to-pdf)
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/justunsix/confluence-export-pages-to-pdf)
 
 ## Why use?
 
