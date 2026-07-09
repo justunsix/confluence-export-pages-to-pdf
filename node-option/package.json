@@ -1,15 +1,15 @@
 {
-    "name": "confluence2pdf",
-    "version": "1.0.0",
-    "description": "Export PDF from Confluence through web script",
-    "main": "index.js",
-    "repository": "https://github.com/justunsix/confluence-export-pages-to-pdf",
-    "author": "Justin Tung",
-    "license": "MIT",
-    "private": false,
-    "dependencies": {
-        "config": "^3.3.6",
-        "js-yaml": "^4.1.1",
-        "puppeteer": "^9.1.1"
-    }
+  "name": "confluence2pdf",
+  "version": "1.0.0",
+  "description": "Export PDF from Confluence through web script",
+  "main": "index.js",
+  "repository": "https://github.com/justunsix/confluence-export-pages-to-pdf",
+  "author": "Justin Tung",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "config": "^4.4.1",
+    "js-yaml": "^5.2.0",
+    "puppeteer": "^25.2.1"
+  }
 }

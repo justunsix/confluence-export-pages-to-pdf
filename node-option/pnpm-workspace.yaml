@@ -1,0 +1,7 @@
+allowBuilds:
+  puppeteer: false
+# Delay the installation of newly published versions (Number of minutes)
+# to 12 days
+# https://pnpm.io/settings#minimumreleaseage
+minimumReleaseAge: 17280
+resolutionMode: time-based
