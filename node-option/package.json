@@ -8,8 +8,8 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "config": "^4.4.1",
-    "js-yaml": "^5.2.0",
-    "puppeteer": "^25.2.1"
+    "config": "^4.4.2",
+    "js-yaml": "^5.2.1",
+    "puppeteer": "^25.3.0"
   }
 }
